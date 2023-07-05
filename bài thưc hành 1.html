@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thuc hành 1</title>
+</head>
+<body>
+    <form>
+        <h2><b>Create Account</b></h2>
+        <fieldset>
+            <legend>Registration information </legend> <br>
+                <b><lable for="first name">First name*:</lable></b>
+                <input placeholder="Enter your first Name" type="text" name="first Name">
+                <b><lable for="last name">Last name*:</lable></b>
+                <input placeholder="Enter your Lats Name" type="text" name="Last Name"><br><br>
+                <b><lable for="email">Email*:</lable></b>
+                <input placeholder="Enter your email" type="text" name="Email">
+                <b><lable for="email">Email*:</lable></b>
+                <input placeholder="Enter your phone number" type="text" name="phone"><br><br>
+                <b><lable for="Password">Password*:</lable></b>
+                <input placeholder="Enter your Password" type="text" name="Password">
+                <b><lable for="Confirm Password">Confirm Password*:</lable></b>
+                <input placeholder="Enter your Password again" type="text" name="Password"><br><br>
+       </fieldset>
+       <fieldset>
+        <legend>Personal information </legend> <br><br>
+        <b><label for="Gender"> Gender</label></b>
+        <input type="radio" id="Male" value="Male" name="gender"checked>
+        <label for="gender">Male</label>
+        <input type="radio" id="Famele" value="Famele" name="gender">
+        <label for="gender">Gender</label>
+        <b><label for="Hobbies">Hobbies</tabel></b>
+        <input type="checkbox">Music
+        <input type="checkbox">Sports
+        <input type="checkbox"> Travel
+        <input type="checkbox">Movies<br><br>
+        <b><label for="Source of Income">Soucre of Income</label></b>
+        <select name="soucre">
+            <option> Employed</option>
+            <option> Employed 2</option>
+            <option> Employed 3</option>
+        </select>
+        <b><label for="Income"> Source of Income</label></b>
+        <input type="range" name="Income" min="1" max="10"><br><br>
+        <b><label for="Age">Age</label></b>
+        <select>        
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+        </select>
+        <b><label for="Profile Picture">Profile Picture</label></b>
+        <input type="file" name="Choose File" id="Profile Picture"><br><br>
+        <b><label for="Birthday:">Birthday</label></b>
+        <input type="date" name="bday"/>
+        <b><label for="Address">Address</label></b>
+        <input type="text" name="Address"><br><br>
+        <b><label for="Bio">Bio</label></b>
+        <input type="text" name="Bio">   
+       </fieldset><br><br>
+    </form>
+   <input type="submit" value="Create">
+   <input type="reset" value="reset">
+    
+</body>
+</html>
